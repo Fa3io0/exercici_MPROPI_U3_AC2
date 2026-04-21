@@ -1,0 +1,35 @@
+body {
+  font-family: Arial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  gap: 10px;
+}
+
+input, button {
+  padding: 10px;
+}
+
+#passwordHint {
+  font-size: 0.85rem;
+  color: #4b5563;
+}
+
+#message {
+  min-height: 1.2em;
+}
+
+#message.error {
+  color: red;
+}
+
+#message.success {
+  color: green;
+}
